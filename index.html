@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nilesh Pratap Dubey - Software Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+      <nav
+        class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto"
+      >
+        <div class="text-xl font-bold text-gray-800">
+          <a href="#home">Nilesh Dubey</a>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a
+            href="#home"
+            class="nav-link text-gray-700 hover:text-blue-600 transition-colors duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="nav-link text-gray-700 hover:text-blue-600 transition-colors duration-300"
+            >About</a
+          >
+          <a
+            href="#projects"
+            class="nav-link text-gray-700 hover:text-blue-600 transition-colors duration-300"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="nav-link text-gray-700 hover:text-blue-600 transition-colors duration-300"
+            >Contact</a
+          >
+        </div>
+        <div class="md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="flex flex-col space-y-1 p-2"
+            type="button"
+          >
+            <span
+              class="w-6 h-0.5 bg-gray-800 transition-all duration-300 block"
+            ></span>
+            <span
+              class="w-6 h-0.5 bg-gray-800 transition-all duration-300 block"
+            ></span>
+            <span
+              class="w-6 h-0.5 bg-gray-800 transition-all duration-300 block"
+            ></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-gray-200"
+      >
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="#home"
+            class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+            >About</a
+          >
+          <a
+            href="#projects"
+            class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center"
+    >
+      <div class="text-center px-6 max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+          Hello, I'm Nilesh Pratap Dubey
+        </h1>
+        <h2 class="text-xl md:text-2xl text-gray-600 mb-6">
+          Software Engineer & Full-Stack Developer
+        </h2>
+        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          Crafting innovative web and mobile solutions that solve real-world
+          problems. Driven by purpose, focused on performance, and committed to
+          creating seamless user experiences.
+        </p>
+        <button
+          id="hero-button"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors duration-300 font-medium"
+        >
+          View My Work
+        </button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16"
+        >
+          About Me
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+              I'm a passionate software engineer with a solid foundation in
+              full-stack development and a keen interest in building impactful
+              digital solutions. I hold a B.Tech in Computer Science and
+              Engineering from Lovely Professional University (2024) and have
+              hands-on experience developing scalable web and mobile
+              applications that solve real-world problems. I thrive in
+              collaborative environments and continuously strive to learn and
+              innovate.
+            </p>
+            <div class="flex flex-col md:flex-row gap-6">
+              <!-- B.Tech Section -->
+              <div
+                class="bg-blue-50 p-6 rounded-lg border border-blue-100 flex-1"
+              >
+                <h3 class="text-xl font-semibold text-blue-800 mb-4">
+                  Graduation
+                </h3>
+                <h4 class="text-lg font-medium text-gray-800 mb-2">
+                  Bachelor of Technology
+                </h4>
+                <p class="text-gray-600 mb-1">
+                  Computer Science and Engineering
+                </p>
+                <p class="text-gray-600 mb-1">
+                  Lovely Professional University, Jalandhar
+                </p>
+                <p class="text-gray-600">Graduated: June 2024 | GPA: 7.45/10</p>
+              </div>
+
+              <!-- 12th Education Section -->
+              <div
+                class="bg-blue-50 p-6 rounded-lg border border-blue-100 flex-1"
+              >
+                <h3 class="text-xl font-semibold text-blue-800 mb-4">
+                  Higher Secondary
+                </h3>
+                <h4 class="text-lg font-medium text-gray-800 mb-2">
+                  12th Grade
+                </h4>
+                <p class="text-gray-600 mb-1">Divine Child School, Mehsana</p>
+                <p class="text-gray-600">
+                  Completed: April 2020 | Percentage: 88%
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="flex justify-center">
+                    <div class="w-64 h-64 rounded-full bg-blue-600 flex items-center justify-center shadow-lg">
+                        <span class="text-6xl font-bold text-white">ND</span>
+                    </div>
+            
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold text-blue-800 mb-8 text-center">
+            Technical Skills
+          </h3>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              React.js
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Node.js
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              MongoDB
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              JavaScript
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Python
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Flutter
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Firebase
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              PostgreSQL
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Next.js
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Express.js
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Git
+            </div>
+            <div
+              class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-center font-medium"
+            >
+              Docker
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16"
+        >
+          My Projects
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Task Manager Project -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center"
+            >
+              <span class="text-6xl text-white">📱</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                Task Manager Application
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Full-stack task management application with secure user
+                authentication. Optimized database queries improving task
+                completion speed by 40% with 99% uptime.
+              </p>
+              <div class="mb-4">
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >React.js</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >Node.js</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >MongoDB</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >JWT</span
+                >
+              </div>
+              <div class="mb-6">
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm mb-2 border border-green-200"
+                >
+                  40% improved completion speed
+                </div>
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm border border-green-200"
+                >
+                  99% uptime
+                </div>
+              </div>
+              <button
+                class="project-btn w-full bg-white border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors duration-300"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+
+          <!-- Inventory Management Project -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center"
+            >
+              <span class="text-6xl text-white">📊</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                Smart Inventory Management System
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Web-based inventory management system for small businesses with
+                real-time stock tracking and automated alerts.
+              </p>
+              <div class="mb-4">
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >Next.js</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >Express.js</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >PostgreSQL</span
+                >
+              </div>
+              <div class="mb-6">
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm mb-2 border border-green-200"
+                >
+                  45% reduced discrepancies
+                </div>
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm border border-green-200"
+                >
+                  30% improved fulfillment
+                </div>
+              </div>
+              <button
+                class="project-btn w-full bg-white border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors duration-300"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+
+          <!-- Disaster Response Project -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center"
+            >
+              <span class="text-6xl text-white">🚨</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                Disaster Response Application
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Mobile application coordinating disaster relief efforts with
+                real-time location tracking and offline functionality.
+              </p>
+              <div class="mb-4">
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >Flutter</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >Firebase</span
+                >
+                <span
+                  class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm mr-2 mb-2"
+                  >PostgreSQL</span
+                >
+              </div>
+              <div class="mb-6">
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm mb-2 border border-green-200"
+                >
+                  50% improved response time
+                </div>
+                <div
+                  class="bg-green-50 text-green-800 px-3 py-1 rounded-lg text-sm border border-green-200"
+                >
+                  Offline capability
+                </div>
+              </div>
+              <button
+                class="project-btn w-full bg-white border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors duration-300"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16"
+        >
+          Get In Touch
+        </h2>
+        <div class="max-w-2xl mx-auto">
+          <form
+            id="contact-form"
+            class="bg-gray-50 p-8 rounded-lg shadow-md mb-8"
+          >
+            <div class="mb-6">
+              <label
+                for="name"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="email"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="message"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition-colors duration-300 font-medium"
+            >
+              Send Message
+            </button>
+          </form>
+
+          <div class="text-center">
+            <h3 class="text-xl font-semibold text-gray-800 mb-6">
+              Contact Information
+            </h3>
+            <div class="space-y-4">
+              <div>
+                <span class="font-medium text-gray-700">Email: </span>
+                <a
+                  href="mailto:dubeynilesh822@gmail.com"
+                  class="text-blue-600 hover:text-blue-700"
+                  >dubeynilesh822@gmail.com</a
+                >
+              </div>
+              <div>
+                <span class="font-medium text-gray-700">Location: </span>
+                <span class="text-gray-600">Sehore, MP</span>
+              </div>
+              <div>
+                <span class="font-medium text-gray-700">Phone: </span>
+                <a
+                  href="tel:+918780448693"
+                  class="text-blue-600 hover:text-blue-700"
+                  >+91 8780448693</a
+                >
+              </div>
+              <div class="pt-4">
+                <h4 class="font-medium text-gray-700 mb-3">Connect with me</h4>
+                <div class="flex justify-center space-x-4">
+                  <a
+                    href="https://linkedin.com/in/nilesh-dubey194"
+                    target="_blank"
+                    class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                    >LinkedIn</a
+                  >
+                  <a
+                    href="#"
+                    class="github-link bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition-colors duration-300"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center">
+          <p class="text-gray-300">
+            &copy; 2025 Nilesh Pratap Dubey. All rights reserved.
+          </p>
+          <div class="mt-4 space-x-6">
+            <a
+              href="#"
+              class="footer-link text-gray-400 hover:text-white transition-colors duration-300 text-sm"
+              >Privacy Policy</a
+            >
+            <a
+              href="#"
+              class="footer-link text-gray-400 hover:text-white transition-colors duration-300 text-sm"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
